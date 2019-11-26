@@ -1,11 +1,37 @@
-.App {
-  text-align: center;
-}
+/* .App {
+  /* text-align: center; */
+/* } */ */
 
 .App-logo {
   height: 40vmin;
 }
-
+tbody {
+  /* width: 30%; */
+  background-color: bisque;
+}
+input[type="text"] {
+  width: 446px;
+  height: 25px;
+  padding-left: 5px;
+  margin-right: 10px;
+}
+.pagination {
+  margin: 20px;
+}
+.search {
+  /* width: 203px; */
+  margin: 20px;
+}
+button,i {
+  height: 30px;
+  font-size: initial;
+  color: darkred;
+  background-color: bisque;
+  font-style: normal;
+}
+.fullList{
+  opacity: 0.6;
+}
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -19,4 +45,9 @@
 
 .App-link {
   color: #09d3ac;
+}
+th {
+  width: -6%;
+  /* margin-left: 20px; */
+  text-align: left;
 }
